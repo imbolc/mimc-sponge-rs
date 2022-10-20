@@ -1,7 +1,7 @@
 #![allow(clippy::derive_hash_xor_eq)]
 #![allow(clippy::too_many_arguments)]
 
-mod constants;
+pub mod constants;
 
 use ff::{self, *};
 
